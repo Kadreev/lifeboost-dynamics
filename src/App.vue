@@ -10,7 +10,7 @@ import BuilderContent from './components/RenderContent.vue';
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <img src="./vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
   <BuilderContent />
