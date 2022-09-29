@@ -8,12 +8,13 @@ export default defineConfig({
     sourcemap: false,
     reportCompressedSize: false,
     rollupOptions: {
+      external: ['node-fetch'],
       treeshake: true,
       output: {
         preserveModules: false,
-        entryFileNames: '[name].js',
-        chunkFileNames: '[name].js',
-        assetFileNames: '[name].[ext]',
+        // Provide global variables to use in the UMD build
+        // for externalized deps
+        manualChunks: () => 'everything.js',
       },
     },
   },
