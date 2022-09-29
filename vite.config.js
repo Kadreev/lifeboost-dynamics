@@ -8,7 +8,7 @@ export default defineConfig({
     sourcemap: false,
     reportCompressedSize: false,
     rollupOptions: {
-      external: ['node-fetch'],
+      external: ['node-fetch', 'vue'],
       treeshake: true,
       output: {
         preserveModules: false,
