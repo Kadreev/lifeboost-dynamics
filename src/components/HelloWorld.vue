@@ -39,13 +39,7 @@
                   viewBox="0 0 361.54 361.54"
                   class="mx-auto h-16 w-16"
                 >
-                  <defs>
-                    <style>
-                      .cls-122 {
-                        fill: #e1eaf4;
-                      }
-                    </style>
-                  </defs>
+                  <defs></defs>
                   <g id="Layer_2" data-name="Layer 2">
                     <g id="Layer_1-2" data-name="Layer 1">
                       <g id="Layer_2-2" data-name="Layer 2">
@@ -172,13 +166,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 361.54 361.54"
                 >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: #010101;
-                      }
-                    </style>
-                  </defs>
+                  <defs></defs>
                   <g id="Layer_2" data-name="Layer 2">
                     <g id="Layer_1-2" data-name="Layer 1">
                       <g id="Layer_2-2" data-name="Layer 2">
@@ -238,16 +226,7 @@
                   viewBox="0 0 311.43 311.43"
                   class="mx-auto h-16 w-16"
                 >
-                  <defs>
-                    <style>
-                      .cls-2 {
-                        fill: #000;
-                      }
-                      .fix {
-                        fill: #e9f2f9;
-                      }
-                    </style>
-                  </defs>
+                  <defs></defs>
                   <g id="Layer_2" data-name="Layer 2">
                     <g id="Layer_1-2" data-name="Layer 1">
                       <path
