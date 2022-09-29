@@ -1,12 +1,13 @@
-<template></template>
-
-<script>
-export default {
-  props: {
-    texta: {
-      type: String,
-      default: 'Highlights',
-    },
+<script setup lang="jsx">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  render() {
+    return <div>Test</div>;
   },
-};
+});
 </script>
+
+<template>
+  <p class="setup-jsx">{{ count }}</p>
+  <Render />
+</template>
