@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { visualizer } from 'rollup-plugin-visualizer';
+import vueJsx from '@vitejs/plugin-vue-jsx'
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
@@ -18,5 +19,7 @@ export default defineConfig({
       },
     },
   },
-  plugins: [vue(), visualizer()],
+  plugins: [vue(), visualizer(), vueJsx({
+    // options are passed on to @vue/babel-plugin-jsx
+  })],
 });
