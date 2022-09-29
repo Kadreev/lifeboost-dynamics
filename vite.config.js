@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-
+import { visualizer } from 'rollup-plugin-visualizer';
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
@@ -14,9 +14,9 @@ export default defineConfig({
         preserveModules: false,
         // Provide global variables to use in the UMD build
         // for externalized deps
-        manualChunks: () => 'everything.js',
+        manualChunks: () => 'main.js',
       },
     },
   },
-  plugins: [vue()],
+  plugins: [vue(), visualizer()],
 });
