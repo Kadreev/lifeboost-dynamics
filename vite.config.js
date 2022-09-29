@@ -8,15 +8,12 @@ export default defineConfig({
     sourcemap: false,
     reportCompressedSize: false,
     rollupOptions: {
-      external: ['node-fetch', 'vue'],
+      external: ['node-fetch'],
       treeshake: true,
       output: {
         preserveModules: false,
         // Provide global variables to use in the UMD build
         // for externalized deps
-        globals: {
-          vue: 'Vue',
-        },
         manualChunks: () => 'everything.js',
       },
     },
