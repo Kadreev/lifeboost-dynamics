@@ -14,9 +14,9 @@ export default defineConfig({
         preserveModules: false,
         // Provide global variables to use in the UMD build
         // for externalized deps
-        manualChunks: () => 'everything.js',
+        manualChunks: () => 'main.js',
       },
     },
   },
-  plugins: [vue(), visualizer(), visualizer()],
+  plugins: [vue(), visualizer()],
 });
