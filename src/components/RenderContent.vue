@@ -14,8 +14,24 @@ import {
   isPreviewing,
 } from '@builder.io/sdk-vue/vue3';
 import HelloWorldComponent from './HelloWorld.vue';
+import IndexCtaBanner from './IndexCtaBanner.vue';
+
 const BUILDER_PUBLIC_API_KEY = '3e94875091f14b5fbf2446148f458738'; // ggignore
 export const REGISTERED_COMPONENTS = [
+  {
+    component: IndexCtaBanner,
+    name: 'Index Cta Banner',
+    canHaveChildren: true,
+    image:
+      'https://tabler-icons.io/static/tabler-icons/icons-png/3d-cube-sphere-off.png',
+    inputs: [
+      {
+        name: 'texta',
+        type: 'string',
+        defaultValue: 'Highlights',
+      },
+    ],
+  },
   {
     component: HelloWorldComponent,
     name: 'HelloWorld',
