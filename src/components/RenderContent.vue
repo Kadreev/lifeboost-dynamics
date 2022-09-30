@@ -14,12 +14,12 @@ import {
   isPreviewing,
 } from '@builder.io/sdk-vue/vue3';
 import HelloWorldComponent from './HelloWorld.vue';
-import IndexCtaBanner from './IndexCtaBanner.vue';
+import Baz from './IndexCtaBanner.vue';
 
 const BUILDER_PUBLIC_API_KEY = '3e94875091f14b5fbf2446148f458738'; // ggignore
 export const REGISTERED_COMPONENTS = [
   {
-    component: IndexCtaBanner,
+    component: Baz,
     name: 'Index Cta Banner',
     canHaveChildren: true,
     image:
