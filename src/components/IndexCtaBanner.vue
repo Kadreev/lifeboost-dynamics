@@ -151,9 +151,9 @@ const Baz = defineComponent({
                 data-aspectratio="1.1930116472545758"
                 data-parent-fit="cover"
                 data-sizes="auto"
-                alt=""
                 width={717}
                 height={601}
+                alt
               />
             </div>
           </div>
@@ -212,9 +212,9 @@ const Baz = defineComponent({
                       data-aspectratio={1.0}
                       data-parent-fit="cover"
                       data-sizes="auto"
-                      alt=""
                       width={268}
                       height={268}
+                      alt
                     />
                   </div>
                 </div>
@@ -259,9 +259,9 @@ const Baz = defineComponent({
                       data-aspectratio={1.0}
                       data-parent-fit="cover"
                       data-sizes="auto"
-                      alt=""
                       width={268}
                       height={268}
+                      alt
                     />
                   </div>
                 </div>
