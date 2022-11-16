@@ -1,7 +1,7 @@
 <template>
   <builder-render-content
     v-if="canShowContent"
-    model="product"
+    model="page"
     :content="content"
     :api-key="apiKey"
     :customComponents="getRegisteredComponents()"
@@ -63,7 +63,7 @@ export default {
   },
   mounted() {
     getContent({
-      model: 'product',
+      model: 'page',
       apiKey: BUILDER_PUBLIC_API_KEY,
       userAttributes: {
         urlPath: window.location.pathname,
